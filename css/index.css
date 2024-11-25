@@ -1,0 +1,45 @@
+/* .container {
+} */
+
+.hero {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) -13.19%,
+      rgba(0, 0, 0, 0.85) 94.01%
+    ),
+    url(../assets/images/hero-image.png);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position-x: 53%;
+}
+
+.hero {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.img {
+  background: url(../assets/images/image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 53%;
+  height: 800px;
+}
+
+.img {
+  max-width: 1600px;
+  /* margin: auto; */
+}
+
+.img-girl {
+  background: url(../assets/images/girl-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 53%;
+  height: 800px;
+}
+
+.img-girl {
+  max-width: 1600px;
+  /* margin: auto; */
+}

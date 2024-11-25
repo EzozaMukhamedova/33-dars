@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div
+            class="flex justify-between items-center py-[15px] largetablet:py-[20px]"
+          >
+            <img src="./assets/icons/nav-logo.svg" alt="" />
+            <div class="hidden largetablet:block">
+              <ul class="flex gap-[30px]">
+                <li>
+                  <a href=""><span>Напрямки</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Про компанію</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Переваги</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Етапи роботи</span></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hidden tablet:block">
+              <div class="flex gap-[18px] items-center">
+                <img
+                  class="w-[18px]"
+                  src="./assets/icons/instagram.svg"
+                  alt=""
+                />
+                <img class="w-[8px]" src="./assets/icons/facebook.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="hidden tablet:block">
+              <a class="flex gap-[10px]" href=""
+                ><img
+                  class="w-[15px]"
+                  src="./assets/icons/phone-nav.svg"
+                  alt=""
+                />
+                +380 67661 5415</a
+              >
+            </div>
+
+            <button>
+              <img src="./assets/icons/nav-humburger.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="text-center text-white hero pt-[70px] pb-[124px]">
+          <h1 class="font-[700] text-[28px] leading-[33px] pb-[28px] uppercase">
+            виробництво <br />
+            меблів
+          </h1>
+          <p class="pb-8 m-auto font-light leading-6">
+            Ми виконуємо комплексне <br class="inline tablet:hidden" />
+            <span>виготовлення корпусних меблів</span>
+            <br class="hidden tablet:inline" />
+            для <br class="inline tablet:hidden" />
+            житлових і комерційних приміщень,
+            <br class="inline tablet:hidden" />
+
+            забезпечимо Вас <br class="hidden tablet:inline" />
+            <span
+              >якісним меблевим <br class="inline tablet:hidden" />продуктом
+              власного виробництва.</span
+            >
+          </p>
+
+          <a
+            class="py-[22px] px-[72px] bg-[#AE7B3C] text-white inline-block"
+            href=""
+            >Обговорити проект</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div
+          class="text-center py-[80px] largetablet:py-[100px] tablet:pt-[140px] tablet:pb-[116px] desktop:py-[140px]"
+        >
+          <h1
+            class="font-[700] text-[28px] leading-[33px] pb-[50px] largetablet:pb-[80px] uppercase"
+          >
+            Основні <br class="block tablet:hidden" />
+            напрямки
+          </h1>
+
+          <div
+            class="flex gap-[50px] flex-col largetablet:flex-row largetablet:gap-[20px] largetablet:items-center largetablet:flex largetablet:justify-center"
+          >
+            <div class="tablet:flex gap-[40px] largetablet:gap-[20px]">
+              <!-- CARD -->
+              <div class="text-left border-s-2 pl-[20px]">
+                <span class="text-[#282b2284]">01</span>
+                <p
+                  class="pb-[15px] pt-[20px] font-[600] leading-[29px] text-[#3D4A39]"
+                >
+                  Дизайн інтерєру
+                </p>
+                <img
+                  class="w-[100%] m-auto tablet:w-[260px] tablet:h-[320px]"
+                  src="./assets/images/img-top.png"
+                  alt=""
+                />
+              </div>
+              <!-- CARD -->
+              <div class="text-left border-s-2 pl-[20px]">
+                <span class="text-[#282b2284]">02</span>
+                <p
+                  class="pb-[15px] pt-[20px] font-[600] leading-[29px] text-[#3D4A39]"
+                >
+                  Виробництво меблів
+                </p>
+                <img
+                  class="w-[100%] m-auto tablet:w-[260px] tablet:h-[320px]"
+                  src="./assets/images/img-center.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="tablet:flex gap-[40px]">
+              <!-- CARD -->
+              <div class="text-left border-s-2 pl-[20px]">
+                <span class="text-[#282b2284]">03</span>
+                <p
+                  class="pb-[15px] pt-[20px] font-[600] leading-[29px] text-[#3D4A39]"
+                >
+                  Комплексне меблювання
+                </p>
+                <img
+                  class="w-[100%] m-auto tablet:w-[260px] tablet:h-[320px]"
+                  src="./assets/images/image-right.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-[#3D4A39]">
+      <div class="container">
+        <div class="py-[80px]">
+          <h1
+            class="text-center text-white font-[600] text-2xl uppercase pb-[50px] tablet:pb-[75px] largetablet:pb-[70px]"
+          >
+            Ми забезпечемо <br class="tablet:hidden" />
+            вас
+          </h1>
+          <div
+            class="grid grid-cols-2 gap-[50px] largetablet:grid-cols-3 m-auto items-center text-center"
+          >
+            <!-- ICON 1 -->
+            <a href="#" class="">
+              <img
+                class="m-auto"
+                src="./assets/icons/room-wardrobe.svg"
+                alt="Room Wardrobe"
+              />
+              <span
+                class="font-medium text-[18px] leading-[23px] text-[#ffffff84]"
+                >Меблями</span
+              >
+            </a>
+
+            <!-- ICON 2 -->
+            <a href="#" class="">
+              <img
+                class="m-auto"
+                src="./assets/icons/furniture.svg"
+                alt="Room Wardrobe"
+              />
+              <span
+                class="font-medium text-[18px] leading-[23px] text-[#ffffff84]"
+                >Освітленням</span
+              >
+            </a>
+
+            <!-- ICON 3 -->
+            <a href="#" class="">
+              <img
+                class="mb-[30px] m-auto"
+                src="./assets/icons/tecknik.svg"
+                alt="Room Wardrobe"
+              />
+              <span
+                class="font-medium text-[18px] leading-[23px] text-[#ffffff84]"
+                >Побутовою технікою</span
+              >
+            </a>
+
+            <!-- ICON 4 -->
+            <a href="#" class="">
+              <img
+                class="m-auto"
+                src="./assets/icons/room-wardrobe.svg"
+                alt="Room Wardrobe"
+              />
+              <span
+                class="font-medium text-[18px] leading-[23px] text-[#ffffff84]"
+                >Дверима</span
+              >
+            </a>
+
+            <!-- ICON 5 -->
+            <a href="#" class="flex-row items-center justify-center">
+              <img
+                class="m-auto"
+                src="./assets/icons/brainstorm.svg"
+                alt="Room Wardrobe"
+              />
+              <span
+                class="font-medium text-[18px] leading-[23px] text-[#ffffff84] m-auto"
+                >Проектуванням</span
+              >
+            </a>
+
+            <!-- ICON 6 -->
+            <a href="#" class="">
+              <img
+                class="m-auto"
+                src="./assets/icons/floor.svg"
+                alt="Room Wardrobe"
+              />
+              <span
+                class="font-medium text-[18px] leading-[23px] text-[#ffffff84] text-center"
+                >Стіновими панелями та підлоговим покриттям</span
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="py-[100px]">
+          <h1
+            class="text-center font-[600] text-[28px] leading-[36px] pb-[60px]"
+          >
+            Проект Рінго Україна - створений <br class="" />
+            виконувати об`єктні задачі комплексного <br class="" />
+            меблювання житлових та комерційних <br class="" />
+            приміщень.
+          </h1>
+          <div
+            class="flex flex-col items-center justify-center tablet:flex-row"
+          >
+            <!-- CARD 1 -->
+            <div
+              class="relative flex tablet:border-r-2 border-y-2 w-[300px] largetablet:w-[403px] pt-[30px] pr-[30px] pb-[30px] largetablet:pr-[77px] largetablet:pt-[19px] largetablet:pb-[18px]"
+            >
+              <img
+                class="absolute left-0 top-[30px] largetablet:top-[25px] tablet:top-[35px]"
+                src="./assets/icons/kрапка.svg"
+                alt=""
+              />
+              <p
+                class="w-[500px] pl-[30px] font-[500] leading-[23px] text-[#282b22ad]"
+              >
+                Наш колектив націлений на результат - вчасно реалізувати проект
+                на найвищому рівні. Ми забезпечуємо спокій замовника та
+                вирішуємо будь-які задачі
+              </p>
+            </div>
+            <!-- CARD 2 -->
+            <div
+              class="relative flex border-y-2 w-[300px] largetablet:w-[403px] pt-[30px] tablet:pl-[30px] pb-[53px] largetablet:pb-[30px] largetablet:pl-[77px]"
+            >
+              <img
+                class="absolute left-0px top-[35px]"
+                src="./assets/icons/kрапка.svg"
+                alt=""
+              />
+              <p
+                class="w-[500px] pl-[30px] font-[500] leading-[23px] text-[#282b22ad]"
+              >
+                Ріго найкращий підрядник прораба, дизайнера, проект-менеджера
+                або персональний помічник власника бізнесу, квартири чи салону
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h1
+          class="text-center text-black font-[600] text-[24px] uppercase pb-[50px] tablet:pb-[75px] largetablet:pb-[70px]"
+        >
+          Наші переваги
+        </h1>
+        <div class="pb-[80px]">
+          <!-- CARD -->
+          <div
+            class="pt-[30px] border-t-2 flex tablet:justify-between largetablet:justify-evenly"
+          >
+            <div class="pl-[30px]">
+              <span
+                class="font-[600] text-[#282b2285] text-[20px] mr-[15px] largetablet:ml-[-218px]"
+                >01</span
+              >
+            </div>
+
+            <div class="pl-[30px] border-l-2 largetablet:mr-[-100px]">
+              <h2 class="font-[600] text-[20px]">Мобільність</h2>
+              <p
+                class="text-[#282b2282] leading-[24px] font-[400] w-[245px] pt-[10px] pb-[30px] largetablet:w-[347px]"
+              >
+                Проводимо зустрічі на об`єктах в затишних закладах Києва
+              </p>
+            </div>
+          </div>
+          <!-- CARD -->
+          <div
+            class="pt-[30px] border-t-2 flex tablet:justify-between largetablet:justify-evenly"
+          >
+            <div class="pl-[30px]">
+              <span
+                class="font-[600] text-[#282b2285] text-[20px] mr-[15px] largetablet:ml-[-218px]"
+                >02</span
+              >
+            </div>
+
+            <div class="pl-[30px] border-l-2 largetablet:mr-[-100px]">
+              <h2 class="font-[600] text-[20px]">Надійність</h2>
+              <p
+                class="text-[#282b2282] leading-[24px] font-[400] w-[245px] pt-[10px] pb-[30px] largetablet:w-[347px]"
+              >
+                Система нашої роботи зосереджена на якості та термінах
+                завершення проекту
+              </p>
+            </div>
+          </div>
+          <div class="relative hidden largetablet:block">
+            <img
+              class="w-[340px] absolute top-[-35px] left-[180px] largetablet:left-[80px] largetablet:top-[-35px] desktop:left-[165px] desktop:top-[-36px]"
+              src="./assets/images/img-peaple.png"
+              alt="People Image"
+            />
+          </div>
+          <!-- CARD -->
+          <div
+            class="pt-[30px] border-t-2 flex tablet:justify-between largetablet:justify-evenly"
+          >
+            <div class="pl-[30px]">
+              <span
+                class="font-[600] text-[#282b2285] text-[20px] mr-[15px] largetablet:ml-[-218px]"
+                >03</span
+              >
+            </div>
+
+            <div class="pl-[30px] border-l-2 largetablet:mr-[-100px]">
+              <h2 class="font-[600] text-[20px]">Якість</h2>
+              <p
+                class="text-[#282b2282] leading-[24px] font-[400] w-[245px] pt-[10px] pb-[30px] largetablet:w-[347px]"
+              >
+                Виготовляємо виключно з перевірених європейських брендів
+              </p>
+            </div>
+          </div>
+
+          <!-- CARD -->
+          <div
+            class="pt-[30px] border-t-2 flex tablet:justify-between largetablet:justify-evenly"
+          >
+            <div class="pl-[30px]">
+              <span
+                class="font-[600] text-[#282b2285] text-[20px] mr-[15px] largetablet:ml-[-218px] largetablet:ml-[-218px]"
+                >04</span
+              >
+            </div>
+
+            <div class="pl-[30px] border-l-2 largetablet:mr-[-100px]">
+              <h2 class="font-[600] text-[20px]">Професіоналізм</h2>
+              <p
+                class="text-[#282b2282] leading-[24px] font-[400] w-[245px] pt-[10px] pb-[30px] largetablet:w-[347px]"
+              >
+                Наша команда - це клуб професіоналів, об`єднаних в одній
+                компанії
+              </p>
+            </div>
+          </div>
+          <!-- CARD -->
+          <div
+            class="pt-[30px] border-y-2 pl-[30px] flex tablet:justify-between largetablet:justify-evenly"
+          >
+            <div class="">
+              <span
+                class="font-[600] text-[#282b2285] text-[20px] mr-[15px] largetablet:ml-[-218px]"
+                >05</span
+              >
+            </div>
+
+            <div class="pl-[30px] border-l-2 largetablet:mr-[-100px]">
+              <h2 class="font-[600] text-[20px]">Вигідність</h2>
+              <p
+                class="text-[#282b2282] leading-[24px] font-[400] w-[245px] pt-[10px] pb-[30px] largetablet:w-[347px]"
+              >
+                Ми відмовились від шоу-руму та офісу на користь вартості та
+                мобільності
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="container justify-between wrapper tablet:flex pt-[60px] pb-[140px]"
+      >
+        <section class="discuss text-white bg-[#3D4A39] tablet:w-[50%]">
+          <div class="">
+            <div
+              class="wrapper bg-[#3D4A39] py-[80px] largetablet:pr-[100px] desktop:px-[100px] tablet:pl-[20px] px-[20px]"
+            >
+              <h2
+                class="text-[30px] tablet:text-[36px] largetablet:text-[46px] largetablet:leading-[56px] font-[700] leading-[33px] mb-[20px]"
+              >
+                Обговоримо <br />
+                ваш проект?
+              </h2>
+              <p class="text-[16px] font-[500] leading-[23px] mb-[40px]">
+                Заповніть форму і найближчим <br class="largetablet:hidden" />
+                часом <br class="hidden largetablet:block" />
+                ми зв'яжемося з вами!
+              </p>
+              <form action="" class="w-[100%]">
+                <input
+                  type="text"
+                  placeholder="Ім'я"
+                  class="pb-[10px] pt-[25px] bg-inherit border-gray-200 border-b-2 w-[100%] font-[500]"
+                />
+                <input
+                  type="number"
+                  placeholder="Номер телефону"
+                  class="pb-[10px] pt-[25px] bg-inherit border-gray-200 border-b-2 w-[100%] font-[500]"
+                />
+                <span
+                  class="flex gap-[10px] items-center pt-[25px] pb-[40px] text-gray-400"
+                >
+                  <i class="fa-solid fa-file-lines"></i>
+                  <h6>Прикріпити проект</h6>
+                </span>
+                <button
+                  class="btn font-[700] py-[22px] w-[100%] bg-[#AE7B3C] mb-[25px]"
+                >
+                  Відправити
+                </button>
+                <span class="flex gap-[10px] mb-[60px]">
+                  <img
+                    class="p-[5px] border-x-4 border-y-4"
+                    src="./assets/icons/border-img.svg"
+                    alt="icon"
+                  />
+                  <h6 class="text-[12px] font-[300]">
+                    Даю згоду на оброблення персональних даних
+                  </h6>
+                </span>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section
+          class="img tablet:w-[50%] h-[360px] tablet:h-[132vh] largetablet:h-[62vh]"
+        ></section>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h1
+          class="text-center text-black font-[600] text-[24px] uppercase pb-[50px] tablet:pb-[75px] largetablet:pb-[70px]"
+        >
+          Етапи роботи
+        </h1>
+        <div
+          class="tablet:flex-row tablet:gap-[60px] tablet:flex-wrap flex flex-col m-auto items-center justify-center pb-[50px] tablet:pb-[10px] desktop:items-start largetablet:w-[640px] desktop:w-[100%]"
+        >
+          <!-- CARD -->
+          <div class="">
+            <div class="text-left">
+              <img class="w-[50px]" src="./assets/icons/01.svg" alt="" />
+              <h2
+                class="font-[600] text-[18px] leading-[18px] pt-[25px] pb-[15px] inline-block"
+              >
+                Підписання договору
+              </h2>
+              <p class="w-[240px] pb-[50px] tablet:pb-0">
+                Визначаємось з бюджетом, матеріалами та фурнітурою. Вносимо
+                правки в проект, підписуємо пакет документів.
+              </p>
+            </div>
+          </div>
+          <!-- CARD -->
+          <div class="">
+            <div class="text-left">
+              <img src="./assets/icons/02.svg" alt="" />
+              <h2
+                class="font-[600] text-[18px] leading-[18px] pt-[25px] pb-[15px] inline-block"
+              >
+                Виготовлення
+              </h2>
+              <p class="w-[240px] pb-[50px] tablet:pb-0">
+                Після підписання договору та визначення термінів, команда Рінго
+                приступає до найцікавішого - виробництва!
+              </p>
+            </div>
+          </div>
+          <!-- CARD -->
+          <div class="">
+            <div class="text-left">
+              <img src="./assets/icons/3.svg" alt="" />
+              <h2
+                class="font-[600] text-[18px] leading-[18px] pt-[25px] pb-[15px] inline-block"
+              >
+                Встановлення
+              </h2>
+              <p class="w-[240px] pb-[50px] tablet:pb-0">
+                По готовності виробництва починаємо монтаж на обєкті. У
+                домовлений час виконуємо доставку та монтаж.
+              </p>
+            </div>
+          </div>
+          <!-- CARD -->
+          <div class="tablet:mt-[-20px] desktop:mt-0">
+            <div class="text-left">
+              <img src="./assets/icons/04.svg" alt="" />
+              <h2
+                class="font-[600] text-[18px] leading-[18px] pt-[25px] pb-[15px] inline-block"
+              >
+                Новосілля
+              </h2>
+              <p class="w-[240px] pb-[50px] tablet:pb-0">
+                По закінченню робимо перевірку та підписуємо акт закінчення
+                робівт.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="container">
+        <div class="pb-[80px]">
+          <h1
+            class="text-center text-black font-[600] text-[24px] uppercase tablet:pb-[75px] largetablet:pb-[70px] pt-[80px] pb-[40px]"
+          >
+            Зараз в роботі
+          </h1>
+          <div class="m-auto justify-evenly desktop:flex">
+            <!-- CARD-IMG -->
+            <div class="hidden desktop:block gap-[32px] flex-col w-[583px]">
+              <img
+                class="w-[583px]"
+                src="./assets/images/center-img.png"
+                alt=""
+              />
+
+              <div class="">
+                <h2 class="font-[600] text-[24px] leading-24">
+                  Квартира ЖК <br />
+                  Медовий <br /><span
+                    class="text-[18px] font-[500] text-[#282b2277]"
+                    >3 етап</span
+                  >
+                </h2>
+              </div>
+            </div>
+            <!-- CARD-IMG -->
+            <div class="hidden desktop:block gap-[32px] flex-col w-[583px]">
+              <img
+                class="w-[583px]"
+                src="./assets/images/center-img.png"
+                alt=""
+              />
+
+              <div class="">
+                <h2 class="font-[600] text-[24px] leading-24">
+                  Квартира ЖК <br />
+                  Медовий <br /><span
+                    class="text-[18px] font-[500] text-[#282b2277]"
+                    >3 етап</span
+                  >
+                </h2>
+              </div>
+            </div>
+
+            <div class="flex desktop:hidden">
+              <img
+                class="h-[340px] largetablet:block desktop:hidden hidden"
+                src="./assets/images/left-img.png"
+                alt=""
+              />
+              <img class="m-auto" src="./assets/images/center-img.png" alt="" />
+              <img
+                class="h-[340px] largetablet:block desktop:hidden hidden"
+                src="./assets/images/right-img.png"
+                alt=""
+              />
+            </div>
+            <div class="">
+              <h2
+                class="font-[600] text-[20px] leading-[29px] pt-[20px] pb-[5px] text-left largetablet:pl-[210px] desktop:hidden"
+              >
+                Квартира ЖК Медовий
+              </h2>
+            </div>
+          </div>
+
+          <h4 class="text-left largetablet:pl-[210px] desktop:hidden">
+            3 етап
+          </h4>
+          <img
+            class="pt-[30px] tablet:hidden"
+            src="./assets/icons/icon-bottom.svg"
+            alt=""
+          />
+        </div>
+        <div class="relative hidden tablet:block desktop:hidden">
+          <img
+            class="absolute left-0 tablet:top-[-345px]"
+            src="./assets/images/cтрілка-left.png"
+            alt=""
+          />
+          <img
+            class="absolute right-0 z-10 top-[-345px]"
+            src="./assets/images/cтрілка.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-[#F3F3F3] mt-[60px] mb-[140px]">
+      <div class="container">
+        <div class="text-center px-[20px] desktop:px-[50px]">
+          <div
+            class="py-[80px] tablet:py-[100px] tablet:border-x-2 tablet:border-y-2 rounded-[300px] m-auto w-[100%] relative"
+          >
+            <h2
+              class="text-[24px] font-[600] leading-[32px] tablet:text-[36px] tablet:leading-[45px] largetablet:text-[46px] largetablet:leading-[57px] uppercase"
+            >
+              Рінго роздає <br class="hidden tablet:block" />
+              подарунки!
+            </h2>
+            <p class="pt-[20px] pb-[40px]">
+              При замовленні до нового року, <br class="tablet:hidden" />
+              отримай <br class="hidden tablet:block" />
+              цінний подарунок для <br class="tablet:hidden" />
+              свого комфорту
+            </p>
+            <div class="">
+              <a
+                class="inline-block py-[22px] px-[86.5px] font-[700] text-white bg-[#AE7B3C]"
+                href="#"
+                >Хочу подарунок</a
+              >
+            </div>
+            <div class="hidden largetablet:block">
+              <img
+                src="./assets/images/padarok-img.png"
+                alt=""
+                class="largetablet:absolute largetablet:right-0 largetablet:top-[153px]"
+              />
+              <img
+                src="./assets/images/padarok-ni-img.png"
+                alt=""
+                class="largetablet:absolute largetablet:left-0 largetablet:top-[153px]"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="text-center">
+      <section>
+        <div class="container">
+          <h1
+            class="text-center text-black font-[600] text-[24px] uppercase pb-[50px] tablet:pb-[75px] largetablet:pb-[70px]"
+          >
+            Наші партнери
+          </h1>
+          <div class="flex gap-[10px] tablet:gap-[20px] m-auto justify-center">
+            <img src="./assets/icons/logo-ichi.svg" alt="" />
+            <img src="./assets/icons/logo-ni.svg" alt="" />
+            <img
+              class="hidden largetablet:block"
+              src="./assets/icons/logo-san.svg"
+              alt=""
+            />
+            <img
+              class="hidden largetablet:block"
+              src="./assets/icons/logo-yon.svg"
+              alt=""
+            />
+          </div>
+          <div
+            class="flex gap-[15px] justify-center m-auto items-center pt-[40px] pb-[20px]"
+          >
+            <img class="" src="./assets/icons/Стрілка.svg" alt="" />
+            <img class="" src="./assets/icons/Стрілка -left.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div
+          class="container justify-between wrapper tablet:flex pt-[60px] pb-[140px]"
+        >
+          <section class="discuss text-white bg-[#3D4A39] tablet:w-[50%]">
+            <div class="">
+              <div
+                class="wrapper bg-[#3D4A39] py-[80px] largetablet:pr-[100px] desktop:px-[100px] tablet:pl-[20px] px-[20px]"
+              >
+                <h2
+                  class="text-[30px] tablet:text-[36px] largetablet:text-[46px] largetablet:leading-[56px] font-[700] leading-[33px] mb-[20px]"
+                >
+                  Залишилися <br />
+                  питання?
+                </h2>
+                <p class="text-[16px] font-[500] leading-[23px] mb-[40px]">
+                  Отримай безкоштовну консультацію
+                  <br class="largetablet:hidden" />
+                  часом <br class="hidden largetablet:block" />
+                  менеджера та прорахунок проекту
+                </p>
+                <form action="" class="w-[100%]">
+                  <input
+                    type="text"
+                    placeholder="Ім'я"
+                    class="pb-[10px] pt-[25px] bg-inherit border-gray-200 border-b-2 w-[100%] font-[500]"
+                  />
+                  <input
+                    type="number"
+                    placeholder="Номер телефону"
+                    class="pb-[10px] pt-[25px] bg-inherit border-gray-200 border-b-2 w-[100%] font-[500]"
+                  />
+                  <span
+                    class="flex gap-[10px] items-center pt-[25px] pb-[40px] text-gray-400"
+                  >
+                    <i class="fa-solid fa-file-lines"></i>
+                    <h6>Прикріпити проект</h6>
+                  </span>
+                  <button
+                    class="btn font-[700] py-[22px] w-[100%] bg-[#AE7B3C] mb-[25px]"
+                  >
+                    Відправити
+                  </button>
+                  <span class="flex gap-[10px] mb-[60px]">
+                    <img
+                      class="p-[5px] border-x-4 border-y-4"
+                      src="./assets/icons/border-img.svg"
+                      alt="icon"
+                    />
+                    <h6 class="text-[12px] font-[300]">
+                      Даю згоду на оброблення персональних даних
+                    </h6>
+                  </span>
+                </form>
+              </div>
+            </div>
+          </section>
+          <section
+            class="img-girl tablet:w-[50%] h-[360px] tablet:h-[132vh] largetablet:h-[62vh]"
+          ></section>
+        </div>
+      </section>
+
+      <section class="">
+        <div class="pt-[104px] pb-[101px]">
+          <div
+            class="container flex flex-col justify-between text-left largetablet:flex-row"
+          >
+            <div class="items-start largetablet:flex tablet:flex gap-[110px]">
+              <div class="">
+                <img src="./assets/icons/logo-footer.svg" alt="" />
+                <div class="flex gap-[10px] pt-[26px] items-center">
+                  <span>Соцмережі:</span>
+                  <img src="./assets/icons/instagram.svg" alt="" />
+                  <img src="./assets/icons/facebook.svg" alt="" />
+                </div>
+              </div>
+
+              <div
+                class="largetablet:justify-between largetablet:flex largetab;et-[20px]"
+              >
+                <div
+                  class="flex gap-[24px] largetablet:gap-[86px] py-[50px] tablet:py-0 tablet:flex"
+                >
+                  <div class="tablet:ml-[20px] w-[180px]">
+                    <ul>
+                      <li class="pb-[15px]">
+                        <a href=""><span>Основні напрямки</span></a>
+                      </li>
+
+                      <li class="pb-[15px]">
+                        <a href=""><span>Про компанію</span></a>
+                      </li>
+
+                      <li class="pb-[15px]">
+                        <a href=""><span>Переваги</span></a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="w-[180px]">
+                    <ul>
+                      <li class="pb-[15px]">
+                        <a href=""><span>Етапи роботи</span></a>
+                      </li>
+
+                      <li class="pb-[15px]">
+                        <a href=""><span>Зараз в роботі</span></a>
+                      </li>
+
+                      <li class="pb-[15px]">
+                        <a href=""><span>Стати партнером</span></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="largetablet:ml-[50px]">
+                  <a class="flex gap-[10px] pb-[31px]" href=""
+                    ><img
+                      class="w-[15px]"
+                      src="./assets/icons/phone-nav.svg"
+                      alt=""
+                    />
+                    +380 67661 5415</a
+                  >
+                  <a
+                    class="py-[20px] px-[65px] bg-[#AE7B3C] text-white inline-block"
+                    href=""
+                    >На каву з менеджером!</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="">
+        <div class="container">
+          <div class="">
+            <h2 class="font-[600] text-[18px] leading-[18px] text-left">
+              Бренди комплектуючих
+            </h2>
+            <div
+              class="grid justify-center gap-[25px] grid-cols-2 items-center tablet:grid-cols-4 largetablet:grid-cols-7 desktop:grid-cols-8 my-[38px]"
+            >
+              <img src="./assets/icons/image 8.svg" alt="" class="" />
+              <img src="./assets/icons/image 9.svg" alt="" class="" />
+              <img src="./assets/icons/image 10.svg" alt="" class="" />
+              <img src="./assets/icons/image 11.svg" alt="" class="" />
+              <img
+                src="./assets/icons/Inoxa_logo_bianco 1.svg"
+                alt=""
+                class=""
+              />
+              <img src="./assets/icons/pngegg (1) 1.svg" alt="" class="" />
+              <img src="./assets/icons/pngegg (2) 1.svg" alt="" class="" />
+              <img src="./assets/icons/pngegg 1.svg" alt="" class="" />
+            </div>
+            <hr />
+            <div class="flex justify-between pb-[40px]">
+              <p class="text-[#282b226b]">© 2021 Ringo</p>
+              <p class="text-[#282b226b]">Дизайн сайту</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
